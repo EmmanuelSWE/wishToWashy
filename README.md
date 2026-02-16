@@ -57,8 +57,7 @@ None as of yet.
 
 # FRONTEND-CI
 
-* npm run ci
+
 
 # Setup for husky
-In the client directory run the following command
-* npm run prepare
+
