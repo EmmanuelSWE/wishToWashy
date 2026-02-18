@@ -1,63 +1,18 @@
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[![Link to Dev Site](https://github.com/EmmanuelSWE/wishToWashy)
+Currently, two official plugins are available:
 
-# wishToWashy
-React system that shows orders and creates a queue for people who would like to use a shared washing machine
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## What is wishToWashy ?
+## React Compiler
 
-A new cutting-edge system which streamlines the and orders the preperation of washing clothes and requesting to wash machines.
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## Why Choose wishToWashy?
+Note: This will impact Vite dev & build performances.
 
-- New Tech: wishToWshy uses new technology stacks insuring the latest performance speeds.
-- Ease of Use : Requesting to wash has now been made easy throught the use of a few clicks.
-- Protected : with the use of firebase for authentication all your information is protected.
+## Expanding the ESLint configuration
 
-
-# Documentation
-
-## Software Requirement Specification
-
-### Overview
-
-wishToWashy overview currently for v1.0.0 contains only users with the ability to select a house to use. later versions will include, Landloards, care takers
-accomodations and other validations means
-
-### components and functional requirement
-
-**1. Authentication and authorisation management**
-  * user can registes.
-
-**2. Wash request and queuing***
-* Users can request to wash as soon as possible or schedule their wash for a certain time in a day.
-* Users who wait for long will have their schedule pushe up.
-
-
-### use case diagrams
-
-### architecture diagram
-
-# Design
-None as of yet.
-
-
-# running application
-## FRONTEND
-None as of yet.
-
-## Development
-None as of yet.
-
-## Production
-
-# BACKEND
-
-
-# FRONTEND-CI
-
-
-
-# Setup for husky
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
