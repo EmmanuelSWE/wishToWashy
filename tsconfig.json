@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node"],
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
@@ -42,5 +43,5 @@
   ],
   "include": ["src", "typings"],
   "rootDir": "src",
-  "typeRoots": ["typings", "node_modules/@types"]
+  "typeRoots": ["typings", "node_modules/@types", "node"]
 }
