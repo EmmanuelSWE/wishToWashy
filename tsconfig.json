@@ -16,7 +16,7 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
@@ -24,7 +24,9 @@
     "strictNullChecks": false,
     "strictPropertyInitialization": false,
     "target": "ESNext",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "rootDir": ".",
+    "ignoreDeprecations": "6.0"
   },
   "exclude": [
     "node_modules",
